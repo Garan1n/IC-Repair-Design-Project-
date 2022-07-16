@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 2500px;
+    height: 1864px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    max-width: 2500px;
+    height: 83px;
+    background-color: #131313;
+
+}
+.header__article {
+    display: flex;
+    height: 37px;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.header__one {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    margin-top: 13px;
+}
+.header__home {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    margin-left: 95px;
+    margin-top: 13px;
+}
+.header__home:hover {
+    color: red;
+}
+.header__projects {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.header__measurement {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.header__team {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.header__reviews {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.header__contacts {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.header__tel {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    margin-left: 67px;
+    margin-top: 13px;
+}
+.header__button-box {
+    display: flex;
+    width: 161px;
+    height: 37px;
+    background-color: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+.header__button {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: flex;
+    /* align-self: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}

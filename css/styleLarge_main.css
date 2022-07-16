@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 2500px;
+    max-height: 1770px;
+}
+.article {
+    display: flex;
+    max-width: 2500px;
+    max-height: 700px;
+}
+.article__img {
+    max-width: 2500px;
+    max-height: 700px;
+}
