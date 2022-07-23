@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/styleLarge_header.css">
         <link rel="stylesheet" href="./css/styleLarge_main.css">
+        <link rel="stylesheet" href="./css/styleLarge_main-2.css">
     </head>
     <body>
         <header>
@@ -43,7 +44,7 @@
         </header>
         <main>
             <article class="article">
-                <div class="article__overlay"></div>
+                <div class="article__overlay" aria-hidden="true"></div>
                 <div class="article__div">
                     <h1>Turnkey Repair in the <br>city of <span class="article__h1-span">Rostov-on-Don</span></h1>
                     <p class="article__p">
@@ -87,34 +88,77 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article-two__icon">
-                        <button class="article-two__button"><img src="./img/icon/Vector (Stroke left).svg"><img class="article-two__icon-stroke" src="./img/icon/Vector (Stroke).svg"></button>
-                        <img class="article-two__circle-1" src="./img/icon/Rectangle 7.4.svg">
-                        <img class="article-two__circle-2" src="./img/icon/Rectangle 7.3.svg">
-                        <img class="article-two__circle-3" src="./img/icon/Rectangle 7.3.svg">
-                        <button class="article-two__button-2"><img class="article-two__icon-strokeReverse" src="./img/icon/Vector (Stroke).svg"><img class="article-two__vector-right" src="./img/icon/Vector (Stroke right) (1).svg"></button>
+                    <div class="article-two__icon" aria-hidden="true">
+                        <button class="article-two__button"><img src="./img/icon/Vector (Stroke left).svg" alt="picture"><img class="article-two__icon-stroke" src="./img/icon/Vector (Stroke).svg" alt="picture"></button>
+                        <img class="article-two__circle-1" src="./img/icon/Rectangle 7.4.svg" alt="circle">
+                        <img class="article-two__circle-2" src="./img/icon/Rectangle 7.3.svg" alt="circle">
+                        <img class="article-two__circle-3" src="./img/icon/Rectangle 7.3.svg" alt="circle">
+                        <button class="article-two__button-2"><img class="article-two__icon-strokeReverse" src="./img/icon/Vector (Stroke).svg" alt="picture"><img class="article-two__vector-right" src="./img/icon/Vector (Stroke right) (1).svg" alt="picture"></button>
                     </div>
                 </div>
                 <div class="article-twoDivRight__all">
                     <div class="article-twoDivRight">
                         <div class="article-twoDivRight__linkConfig">
                             <a class="article-twoDivRight__link-1">Rostov-on-Don, Admiral</a>
-                            <hr class="article-twoDivRight__hr">
+                            <hr class="article-twoDivRight__hr" aria-hidden="true">
                         </div>
                         <a class="article-twoDivRight__linkConfig-2">Sochi Thieves</a>
                         <a class="article-twoDivRight__linkConfig-3">Rostov-on-Don Patriotic</a>
                     </div>
-                    <img class="article-twoDivRight__img" src="./img/image 2.1.png" alt="design">
+                    <img class="article-twoDivRight__img" src="./img/image 2.1.png" alt="design" aria-hidden="true">
                     <div>
                         <h2 class="article-twoDivRight__footer" >online control</h2>
                         <div class="article-twoDivRight__footer-box">
-                            <img class="article-twoDivRight__footer-img" src="./img/icon/line orange.svg">
-                            <img class="article-twoDivRight__footer-img" src="./img/icon/Camera.svg">
-                            <img class="article-twoDivRight__footer-img" src="./img/icon/line orange.svg">
+                            <img class="article-twoDivRight__footer-img" src="./img/icon/line orange.svg" alt="line" aria-hidden="true">
+                            <img class="article-twoDivRight__footer-img" src="./img/icon/Camera.svg" alt="picture" aria-hidden="true">
+                            <img class="article-twoDivRight__footer-img" src="./img/icon/line orange.svg" alt="line" aria-hidden="true">
                         </div>
                     </div>
                 </div>
             </article>
+            <article class="article-three">
+                <div class="article-three__div">
+                    <div class="article-three__img">
+                        <div class="article-three__img-dark" aria-hidden="true"></div>
+                        <button class="article-three__button">
+                            <div class="article-three__img-element" alt="play">
+                                <div class="article-three__img-elementPlay" alt="play"></div>
+                            </div>
+                        </button>
+                    </div>
+                    <img class="article-three__img-hr" src="./img/icon/Rectangle 6.9.svg" alt="line" aria-hidden="true">
+                    <p class="article-three__p">At each facility, a camera is installed that broadcasts the progress of work on the
+                        clock. At any time, you can go to our website and monitor the progress of work in 
+                        your apartment. You can watch the live broadcast from one of our facilities!<br>
+                        Leave a request below and you will receive a link to the broadcast.</p>
+                </div>
+            </article>
+            <article class="article-four">
+                <div class="article-four__divOne">
+                    <p class="article-four__divOne-p">Name</p>
+                    <input class="article-four__input-one" type="search" placeholder="What is your name:">
+                    <img class="article-four__img-one" src="./img/icon/Rectangle 2.7.svg" alt="line" aria-hidden="true">
+                </div>
+                <div class="article-four__divTwo">
+                    <p class="article-four__divTwo-p">Phone</p>
+                    <input class="article-four__input-two" type="search" placeholder="Your phone number:">
+                    <img class="article-four__img-two" src="./img/icon/Rectangle 2.7.svg" alt="line" aria-hidden="true">
+                </div>
+                <button class="article-four__button">
+                    <span class="article-four__span" >Submit</span>
+                </button>
+            </article>
+            <section class="section-four__section">
+                <input class="section-four__checkbox" type="checkbox" id="check">
+                <label class="section-four__label" for="check">I agree to the processing of personal data</label>
+            </section>
+            <p class="section-four__p">TYPES OF REPAIR</p>
+            <div class="div-four" aria-hidden="true">
+                <img class="div-four__imgOne" src="./img/icon/line orange.svg" alt="line">
+                <img class="div-four__imgTwo" src="./img/icon/Vector-molot.svg" alt="picture" >
+                <img class="div-four__imgThree" src="./img/icon/line orange.svg" alt="line">
+            </div>
+
         </main>
         <footer>
 
