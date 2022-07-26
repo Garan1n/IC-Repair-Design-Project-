@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     max-width: 2500px;
-    height: 730px;
+    max-height: 1600px;
     flex-wrap: wrap;
 }
 .article-five__div1 {
