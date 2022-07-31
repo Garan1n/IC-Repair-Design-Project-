@@ -1,4 +1,4 @@
-@media screen and (min-width:640px) and (max-width:1160px) {
+@media screen and (max-width: 639px) {
     @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
     
@@ -11,7 +11,7 @@
         display: flex;
         flex-direction: row;
         max-width: 2500px;
-        height: 135px;
+        height: 75px;
         background-color: #131313;
     
     }
@@ -37,6 +37,7 @@
         color: #E3B873;
         margin-left: 95px;
         margin-top: 13px;
+        display: none;
     }
     .header__home:hover {
         color: red;
@@ -49,6 +50,7 @@
         margin-left: 47px;
         text-decoration: none;
         margin-top: 13px;
+        display: none;
     }
     .header__measurement {
         font-family: 'Nunito Sans', sans-serif;
@@ -58,6 +60,7 @@
         margin-left: 47px;
         text-decoration: none;
         margin-top: 13px;
+        display: none;
     }
     .header__team {
         font-family: 'Nunito Sans', sans-serif;
@@ -67,6 +70,7 @@
         margin-left: 47px;
         text-decoration: none;
         margin-top: 13px;
+        display: none;
     }
     .header__reviews {
         font-family: 'Nunito Sans', sans-serif;
@@ -76,6 +80,7 @@
         margin-left: 47px;
         text-decoration: none;
         margin-top: 13px;
+        display: none;
     }
     .header__contacts {
         font-family: 'Nunito Sans', sans-serif;
@@ -85,14 +90,16 @@
         margin-left: 47px;
         text-decoration: none;
         margin-top: 13px;
+        display: none;
     }
     .header__tel {
         font-family: 'Nunito Sans', sans-serif;
         font-size: 11px;
         line-height: 15px;
-        color: #E3B873;
-        margin-left: 67px;
+        color: #959595;
+        margin-left: 140px;
         margin-top: 13px;
+        text-decoration: none;
     }
     .header__button-box {
         display: flex;
@@ -103,6 +110,7 @@
         border-radius: 2px;
         cursor: pointer;
         margin: 10px 0px 10px 20px;
+        display: none;
     }
     .header__button {
         font-family: 'Nunito Sans';
@@ -160,16 +168,17 @@ main {
 h1 {
     font-family: 'Yeseva One', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
     z-index: 1;
+    margin: 0 20px;
 }
 .article__h1-span {
     font-family: 'Yeseva One', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 53px;
     text-transform: uppercase;
     color: #E3B873;
@@ -179,10 +188,11 @@ h1 {
     max-width: 550px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 17px;
     font-style: normal;
     line-height: 36px;
     color: #FFFFFF;
+    margin: 0px 20px;
 }
 .article__button-1 {
     width: 205px;
@@ -192,7 +202,7 @@ h1 {
     border-radius: 2px;
     border: 0px;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin: 32px auto 26px auto;
 }
 .article__button-text1 {
     font-family: 'Nunito Sans', sans-serif;
@@ -231,16 +241,17 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    margin: 145px auto;
+    margin: 40px auto;
 }
 .article-two__h2 {
     font-family: 'Yeseva One', sans-serif;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 37px;
     /* letter-spacing: -0.07em; */
     text-transform: uppercase;
     color: #E3B873;
+    margin: 0px auto;
 }
 .article-two__p {
     font-family: 'Nunito Sans', sans-serif;
@@ -248,6 +259,7 @@ h1 {
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
+    margin: 5px 50px;
 }
 .article-two__container {
     display: flex;
@@ -256,10 +268,12 @@ h1 {
 .article-two__container-left {
     display: flex;
     flex-direction: column;
+    margin-left: 35px;
 }
 .article-two__container-right {
     display: flex;
     flex-direction: column;
+    margin-left: -50px;
 }
 .article-two__boxLeft-1 {
     display: flex;
@@ -278,21 +292,21 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-left: 68px;
+    margin-top: 26px;
 }
 .article-two__h3 {
     font-family: 'Yeseva One', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
     margin-bottom: 0px;
-    margin-top: 20px;
 }
 .article-two__p {
     font-family: 'Nunito Sans';
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 21px;
     color: #FFFFFF;
     margin-top: 5px;
@@ -300,12 +314,12 @@ h1 {
 .article-two__h3-config {
     font-family: 'Yeseva One', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
     margin-bottom: 0px;
-    margin-top: 41px;
+    margin-top: 35px;
 }
 .article-two__button {
     display: flex;
@@ -451,11 +465,11 @@ h1 {
 .article-three__img {
     display: flex;
     background-image: url(../img/image\ 6.png);
-    max-width: 817px;
-    height: 435px;
+    max-width: 350px;
+    height: 250px;
     margin: 0 auto;
     background-size: cover;
-    margin-top: -220px;
+    margin-top: -385px;
     position: relative;
 }
 .article-three__img-dark {
@@ -470,13 +484,14 @@ h1 {
 .article-three__img-element {
     background-image: url(../img/icon/Ellipse.svg);
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     z-index: 1;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    background-size: 100px;
 }
 .article-three__img-elementPlay {
     background-image: url(../img/icon/play.svg);
@@ -487,8 +502,8 @@ h1 {
     align-self: center;
     background-repeat: no-repeat;
     position: absolute;
-    top: 55px;
-    left: 65px;
+    top: 34px;
+    left: 43px;
     right: 0;
     bottom: 0;
 }
@@ -509,12 +524,14 @@ h1 {
     text-align: center;
     color: #363636;
     margin: 34px 50px;
+    display: none;
 }
 .article-four {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0px auto;
+    display: none;
 }
 .article-four__divOne {
     display: flex;
@@ -600,6 +617,7 @@ h1 {
     display: flex;
     margin: 50px auto;
     position: relative;
+    display: none;
 }
 .section-four__checkbox {
     -webkit-appearance: none;
@@ -673,7 +691,7 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 124px;
+    margin-bottom: 0px;
 }
 .article-four__divTwo {
     display: flex;
@@ -750,7 +768,7 @@ h1 {
 .article-five__sectionOne {
     display: flex;
     flex-direction: row;
-    max-width: 640px;
+    max-width: 375px;
     max-height: 1600px;
     flex-wrap: wrap;
 }
@@ -762,6 +780,7 @@ h1 {
     background-image: url(../img/image\ 6.1.png);
     background-size: 700px 600px;
     margin-top: 100px;
+    display: none;
 }
 .article-five__div1-1 {
     display: flex;
@@ -827,15 +846,17 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
+    width: 375px;
+    display: none;
 }
 .article-five__sectionTwo {
     display: flex;
     flex-direction: column;
-    width: 640px;
+    width: 375px;
     height: 550px;
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-    margin: 150px auto;
+    margin: 20px auto;
     flex-wrap: wrap;
     position: relative;
 }
@@ -1014,6 +1035,7 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    display: none;
 }
 .articleFive-SectionTwo__divOne {
     display: flex;
@@ -1024,6 +1046,7 @@ input::-webkit-input-placeholder {
     background-size: 1045px 1045px;
     margin: 300px auto 0 auto;
     position: relative;
+    display: none;
 }
 .articleFive-SectionTwo__divOne::before {
     position: absolute;
@@ -1114,6 +1137,7 @@ margin: 0px 50px 50px 0px;
 .articleFive-SectionTwo__divFour {
     display: flex;
     flex-direction: column;
+    display: none;
 }
 .articleFive-SectionTwo__divFour-p1 {
     font-family: 'Yeseva One', sans-serif;
@@ -1152,6 +1176,7 @@ margin: 0px 50px 50px 0px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: none;
 }
 .articleFive-SectionTwo__divFive-boxAll {
     display:flex;
@@ -1183,7 +1208,7 @@ margin: 0px 50px 50px 0px;
 .articleSix {
     display: flex;
     flex-direction: column;
-    width: 640px;
+    width: 375px;
     height: 445px;
     background: #181818;
     margin: 130px auto;
@@ -1200,7 +1225,7 @@ margin: 0px 50px 50px 0px;
     color: #FFFFFF;
 }
 .articleSix-divAll {
-    max-width: 515px; 
+    max-width: 375px; 
     display: flex; 
     justify-content:center;
 }
@@ -1245,25 +1270,25 @@ input::-webkit-input-placeholder {
 .articleSix-divOne__textConfig {
     display: flex; 
     flex-direction:column; 
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .articleSix-divOne__congig2 {
     display: flex; 
     flex-direction:column; 
     justify-content: center; 
-    margin: 50px 0px;
+    margin: 50px 74px;
 }
 .articleSix-divOne__hr2 {
     border: 1px solid #363636;;
     background-color: #363636;;
-    width: 512px;
+    width: 225px;
     margin: 8px 0px 0px 0px;
 }
 .articleSix-divTwo {
     display: flex;
     margin: 0 auto;
     position: relative;
-    margin-top: 45px;
+    margin-top: -22px;
 }
 .articleSix-divTwo__input2 {
     -webkit-appearance: none;
@@ -1336,8 +1361,8 @@ input::-webkit-input-placeholder {
 .articleSeven {
     display: flex;
     flex-direction: column;
-    max-width: 640px;
-    height: 1000px;
+    max-width: 375px;
+    height: 840px;
     background-image: url(../img/image\ 7.2.png);
     background-size: 1440px 1000px;
     background-repeat: no-repeat;
@@ -1380,8 +1405,8 @@ input::-webkit-input-placeholder {
     margin: 26px auto;
 }
 .articleSeven-img2 {
-    width: 600px;
-    height: 435px;
+    width: 350px;
+    height: 260px;
     z-index: 1;
     margin: 35px auto;
 }
@@ -1391,5 +1416,6 @@ footer {
     max-width: 2500px;
     height: 145px;
     background-color: #131313;
+    display: none;
 }    
 }
