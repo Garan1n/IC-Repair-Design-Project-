@@ -3,14 +3,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
     
     body {
-        display: flex;
-        flex-direction: column;
-        max-width: 2500px;
+        margin: 0 auto;
     }
     header {
         display: flex;
         flex-direction: row;
-        max-width: 2500px;
         height: 135px;
         background-color: #131313;
     }
@@ -19,7 +16,6 @@
         display: flex;
         height: 37px;
         flex-wrap: wrap;
-        margin: 20px 20px;
     
     }
     .header__one {
@@ -124,11 +120,9 @@
 main {
     display: flex;
     flex-direction: column;
-    max-width: 2500px;
 }
 .article {
     display: flex;
-    max-width: 2500px;
     height: 700px;
     background-image: url(../img/image\ 4.3.png);
     background-size:cover;
@@ -151,7 +145,7 @@ main {
 .article__div {
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: auto;
     max-width: 630px;
     margin: 135px auto;
@@ -744,7 +738,6 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 2500px;
     margin: -200px auto;
 }
 .article-five__sectionOne {
@@ -1011,7 +1004,6 @@ input::-webkit-input-placeholder {
     margin-top: 58px;
 }
 .articleFive-SectionTwo {
-    max-width: 2550px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1341,7 +1333,7 @@ input::-webkit-input-placeholder {
     max-width: 640px;
     height: 1000px;
     background-image: url(../img/image\ 7.2.png);
-    background-size: 1440px 1000px;
+    background-size: 100% 1000px;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -1389,7 +1381,6 @@ input::-webkit-input-placeholder {
 footer {
     display: flex;
     flex-direction: row;
-    max-width: 2500px;
     height: 145px;
     background-color: #131313;
     margin-top: -600px;

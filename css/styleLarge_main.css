@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 main {
-    display: flex;
-    flex-direction: column;
-    max-width: 2500px;
+    margin: 0 auto;
 }
 .article {
     display: flex;
-    max-width: 2500px;
     height: 700px;
     background-image: url(../img/image\ 4.3.png);
     background-size:cover;
@@ -31,7 +28,7 @@ main {
 .article__div {
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: auto;
     max-width: 630px;
     margin-top: 135px;
