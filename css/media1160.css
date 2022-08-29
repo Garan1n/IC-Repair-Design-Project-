@@ -1218,13 +1218,13 @@
     .articleSeven {
         display: flex;
         flex-direction: column;
-        max-width: 1440px;
+        max-width: -webkit-fill-available;
         height: 1000px;
         background-image: url(../img/image\ 7.2.png);
         background-size: 100% 1000px;
         background-repeat: no-repeat;
         position: relative;
-        margin: 600px auto;
+        margin: 600px auto 0px auto;
     }
     .articleSeven::before {
         content: '';
@@ -1271,6 +1271,6 @@
         flex-direction: row;
         height: 135px;
         background-color: #131313;
-        margin: -600px 0px;
+        margin: 0px auto;
     }
 }

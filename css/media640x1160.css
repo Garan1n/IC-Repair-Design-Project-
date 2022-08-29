@@ -98,7 +98,6 @@
         box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
         border-radius: 2px;
         cursor: pointer;
-        margin: 10px 0px 10px 20px;
     }
     .header__button {
         font-family: 'Nunito Sans';
@@ -1383,5 +1382,4 @@ footer {
     flex-direction: row;
     height: 145px;
     background-color: #131313;
-    margin-top: -600px;
 }    
